@@ -1,0 +1,147 @@
+body {
+  background: url(images/ui\ 2.jpeg);
+  
+}
+
+#main {
+  display: flex;
+  border: 1px solid green;
+  justify-content: center;
+  width: 300px;
+  margin-left: 30%;
+  margin-top: 3%;
+  height: 400px;
+  border-radius: 10px;
+  background: url(images/ui\ 1.jpeg)
+
+}
+
+#head{
+  text-align: center;
+  font-family: sans-serif;
+  color:blue
+}
+
+#log{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#name{
+  padding: 20px
+}
+
+label{
+  font-style: italic 
+  
+}
+
+/* /signup cdsdss/ */
+#contain {
+  display: flex;
+  border: 1px solid green;
+  justify-content: center;
+  width: 300px;
+  margin-left: 30%;
+  height: 400px;
+  border-radius: 10px;
+  background: url(images/ui\ 1.jpeg)
+
+
+}
+
+h4{
+  text-align: center;
+  font-family: sans-serif;
+  color:green
+}
+
+#sign{
+  margin-top: 10px;
+  margin-left: 70px
+
+}
+
+#name{
+  padding: 20px
+}
+
+label{
+  font-style: italic ;
+  font-size: 13px
+  
+}
+
+/* todo ccdsds */
+
+.container {
+ border: 1px solid gray;
+ height: 100%;
+ background: url(images/ui\ 3.jpeg)
+}
+
+nav{
+  border: 1px solid gray;
+  border-radius: 3px;
+  background: white
+  
+}
+
+#home  {
+
+  margin-top: 3px;
+}
+
+ a {
+  text-decoration: none;
+  color: blue;
+  padding: 8px;
+  font-family: sans-serif
+  
+}
+
+#logout {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   margin-top: -26;
+
+}
+
+#task{
+  display: flex;
+  justify-content: center;
+}
+
+h5{
+  text-align: center
+}
+
+#disp{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px
+}
+
+.li {
+  border: 1px solid gray;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  background: white;
+  color:bl;
+  padding: 5px;
+}
+
+input{
+  border: 1px solid green;
+  border-radius: 3px
+}
+
+button{
+  border: 1px solid green;
+  border-radius: 3px;
+  font-family: sans-serif;
+  color: blue
+}
