@@ -16,17 +16,21 @@ login.addEventListener('click', (e)=>{
     alert('login successful')
     location.replace('todo.html')
     
-  }else{
+  }else if(name === element.pUsername || word === element.pPassword){
     alert('incorrect username or password')
+  }else{
+    alert('please create an account')
   }
 
   });
+
+
 
  e.preventDefault()
 })
 
 signup.addEventListener('click', (e)=>{
  location.replace('signup.html')
-
+ 
  e.preventDefault()
 })

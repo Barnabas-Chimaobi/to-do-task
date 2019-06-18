@@ -29,13 +29,14 @@ sign.addEventListener('click', (e)=>{
    access.push(identity)
    localStorage.setItem('access', JSON.stringify(access))
 
-   alert('you can now log in');
+   alert('you have successfully signed up. you can now log in');
  location.replace('login.html');
  }
 
 //  alert('welcome');
 //  location.replace('login.html');
- 
+ password.value = ''
+ username.value = ''
  e.preventDefault();
  })
  
